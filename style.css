@@ -1,0 +1,44 @@
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+}
+
+.main div{
+    flex: 1;
+}
+
+.header div{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.secondary, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
