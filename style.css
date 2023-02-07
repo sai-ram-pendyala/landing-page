@@ -2,11 +2,12 @@ body{
     padding: 0;
     margin: 0;
     max-height: 100vh;
+    font-family: "Roboto", Helvetica, sans-serif;
 }
 
 .hero, .info, .quote{
     padding: 16px 108px 80px 108px;
-    display: flex;
+    display: flex;  
     flex-direction: column;
     gap: 32px;
 }
