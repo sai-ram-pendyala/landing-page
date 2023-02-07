@@ -69,6 +69,7 @@ button{
     font-weight: 700;
     padding: 5px 18px;
     border-radius: 8px;
+    border: 2px solid #f9faf8;
 }
 
 .info-text {
@@ -117,5 +118,19 @@ button{
 
 .credits {
     align-self: flex-end;
+    font-weight: 900;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 32px;
+    margin: 96px;
+    color: #f9faf8;
+    border-radius: 15px;
+}
+
+.action-head {
     font-weight: 900;
 }
