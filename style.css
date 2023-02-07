@@ -4,14 +4,14 @@ body{
     max-height: 100vh;
 }
 
-.hero, .info, .quote {
+.hero, .info, .quote{
     padding: 16px 108px 80px 108px;
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.hero {
+.hero, .copyright {
     background-color: #1f2937;
 }
 
@@ -133,4 +133,12 @@ button{
 
 .action-head {
     font-weight: 900;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    padding: 16px;
 }
